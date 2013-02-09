@@ -1,0 +1,58 @@
+﻿<html>
+	<view-port/>
+	<title>hello world</title>
+	<?cache
+		&import cache2;
+		fu.jpeg;
+		kyo.jpeg;
+		kei.jpeg;
+	>
+	<?css
+		&import css2;
+		table #users{
+			width:100px; height: 100px;
+		}
+		.grid{
+		}
+	>
+	<body>
+		&import wordl;
+		<table #users .grid align="Center" style={width:100px; height:10em}>
+			<tbody>
+				<tr>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
+<?js
+	&import jquery;
+	&import enchant;
+	class Greet{
+		new() {}
+		void say{}
+	}
+	class Hello : Greet{
+		Integer x, y;
+		Greet greets*-parent_hello;
+		Greet greets*;
+		Gteet greet--:
+		Greet greets**;
+		Greet greets[];
+		new(x, y){
+		}
+		new(x) {
+		}
+		void say(){
+			alert(x);
+		}
+		Action act{
+		}
+	}
+	delegate Action = void ? (Integer x, Integer y);
+	users.onclick = Click{
+	}
+	Hello hello = new Hello(1, 2);
+	for(Integer i = 0; i < 9; i++) {
+	}
+>

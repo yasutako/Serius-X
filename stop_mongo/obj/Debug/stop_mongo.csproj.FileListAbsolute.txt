@@ -1,0 +1,6 @@
+C:\Users\yasu\Desktop\Projects\Serius-x\stop_mongo\bin\Debug\stop_mongo.exe.config
+C:\Users\yasu\Desktop\Projects\Serius-x\stop_mongo\bin\Debug\stop_mongo.exe
+C:\Users\yasu\Desktop\Projects\Serius-x\stop_mongo\bin\Debug\stop_mongo.pdb
+C:\Users\yasu\Desktop\Projects\Serius-x\stop_mongo\obj\Debug\stop_mongo.csprojResolveAssemblyReference.cache
+C:\Users\yasu\Desktop\Projects\Serius-x\stop_mongo\obj\Debug\stop_mongo.exe
+C:\Users\yasu\Desktop\Projects\Serius-x\stop_mongo\obj\Debug\stop_mongo.pdb

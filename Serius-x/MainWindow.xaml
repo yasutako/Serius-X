@@ -1,0 +1,26 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Serius" x:Class="Serius.MainWindow"
+        Title="MainWindow" Height="650" Width="725">
+    <DockPanel x:Name="dock">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="file"/>
+        </Menu>
+        <ToolBar DockPanel.Dock="Top">
+            <Button Content="project" Click="new_project_click"/>
+            <Button Content="open" Click="open_project_click"/>
+            <Button Content="save" Click="save_project_click"/>
+            <Button Content="new" Click="new_file_click"/>
+            <Button Content="compile"/>
+        </ToolBar>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>Hello</StatusBarItem>
+        </StatusBar>
+        <TabControl x:Name="tab">
+            <TabItem Header="!cmd!">
+                <local:Node_page x:Name="init"/>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

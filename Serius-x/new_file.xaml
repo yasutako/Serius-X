@@ -1,0 +1,12 @@
+﻿<Window x:Class="Serius.new_file"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="new_file" Height="300" Width="300">
+    <Canvas>
+        <TextBox Name="file_name_text" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Canvas.Left="108" Canvas.Top="187"/>
+        <Button Content="OK" Canvas.Left="108" Canvas.Top="228" Width="75" Click="ok_click"/>
+        <Button Content="キャンセル" Canvas.Left="199" Canvas.Top="228" Width="75" Click="cancel_click"/>
+        <Label Content="ファイル名" Canvas.Left="23" Canvas.Top="187"/>
+
+    </Canvas>
+</Window>
